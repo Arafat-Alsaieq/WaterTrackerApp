@@ -13,7 +13,7 @@ struct WaterTracker: View {
     let dailyGoal: Double // This will be passed from the previous page, calculated from the user's weight
     
     // Images to change dynamically based on progress
-    let progressImages = ["zzz", "turtle", "rabbit", "clap"] // Replace with your image asset names
+    var progressImages = ["zzz", "turtle", "rabbit", "clap"] // Replace with your image asset names
     
     // Function to calculate progress percentage
     var progress: Double {
